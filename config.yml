@@ -1,0 +1,22 @@
+# Server name to set
+# Colors only appear in the debug menu (F3). Requires MC 1.13+.
+# For server list ping chat colors will be ignored
+# Max size: 256 characters
+server-name: '&bMyBungeeServer'
+
+# If the server name should be visible in the minecraft server list
+# This will make the ping appear crossed out
+unsupported-protocol: false
+
+
+############################
+# Bungeecord-only settings #
+############################
+
+# If the plugin should inject itself in the netty pipeline to intercept packets
+# Required for server name changing in the debug menu (F3)
+pipeline-injection: true
+
+# The server-name when connected to a Spigot server through the bungeecord proxy
+# %server% is the name received from the Spigot server
+connected-server-name: '&bMyBungeeServer-&9%server%'

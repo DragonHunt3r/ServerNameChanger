@@ -1,0 +1,4 @@
+main: net.steelphoenix.servername.bungee.ServerNamePlugin
+name: ServerNameChanger
+author: SteelPhoenix
+version: 1.3
