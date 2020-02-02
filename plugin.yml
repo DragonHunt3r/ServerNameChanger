@@ -1,6 +1,6 @@
 main: net.steelphoenix.servername.spigot.ServerNamePlugin
 name: ServerNameChanger
 author: SteelPhoenix
-version: 1.3
+version: 1.4
 api-version: 1.13
 depend: [ProtocolLib]
